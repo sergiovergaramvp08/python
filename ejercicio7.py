@@ -4,6 +4,9 @@ def ejercicio():
     for n in range(0,6):
         l = l + int(input("pone un numero: "))
 
-    print("El promedio de los 6 numeros es ", int(l/6))
+    print("El promedio de los 6 numeros es ",round (l/6))
+     
+
+    
 
 ejercicio()
